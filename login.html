@@ -30,8 +30,30 @@
             </form>
 
         </div>
+        <div class="login-section">
+            <header>Login</header>
 
-        
+            <div class="social-buttons">
+                <button><i class='bx bxl-google'></i> Use Google</button>
+                <button><i class='bx bxl-apple'></i> Use Apple</button>
+            </div>
+
+            <div class="separator">
+                <div class="line"></div>
+                <p>Or</p>
+                <div class="line"></div>
+            </div>
+
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email address" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <a href="#">Forget Password?</a>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p id="login-success-message" style="display: none;">Login Successful!</p>
+        </div>
+
+
     </div>
     
 </body>
